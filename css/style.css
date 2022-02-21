@@ -26,7 +26,7 @@ img {
     height: 100%;
     border-radius: 1rem;
     z-index: 1;
-    
+
 }
 
 /* Settaggio testa della pagina
@@ -37,7 +37,7 @@ img {
     margin-right: 20px;
 }
 
-.head {
+.head, .block_one {
     position: relative;
 }
 
@@ -62,20 +62,18 @@ footer {
 
 /* Inizio settaggio colori main */
 
-.bg_color{
+.bg_color {
     width: 100%;
     height: 99.5%;
     background-color: rgba(128, 128, 128, 0.267);
     position: absolute;
     z-index: 2;
     border-radius: 1rem;
-    
+
 }
 
 
-.block_one {
-    position: relative;
-}
+
 
 .bottom_left {
     position: absolute;
@@ -89,44 +87,32 @@ footer {
 
 /* ********************* */
 
-.bage_small {
+.bage_middle, .bage_small {
     position: relative;
     max-width: 100%;
 }
 
-.bage_middle {
-    position: relative;
-    max-width: 100%;
-}
-
-.min_size,img{
+.size {
     height: 200px;
-    
-}
 
-.max_size,img{
-    height: 200px;
-    
 }
 
 .row_left {
-    width: 20%;
-    
+    width: 18%;
     float: left;
 
 }
 
 .row_center {
     width: 58%;
-    
     float: left;
 }
 
 /* Dimensionamento 3 blocco */
 
 .margin {
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 
@@ -145,4 +131,9 @@ footer {
 .site_footer {
     height: 67px;
     text-align: center;
+}
+
+.site_footer>span {
+    color: red;
+    font-size: 30px;
 }
