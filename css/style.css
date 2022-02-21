@@ -1,0 +1,99 @@
+/* Utilities
+****************** */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+
+}
+
+/* Settaggio colori header
+************* */
+
+/* BONUS SETTINGS 
+*********************/
+.logo {
+    height: 80px;
+    width: 300px;
+    background-color: rgb(214, 252, 0);
+}
+.logo_text {
+    position: relative;
+    height: 70px;
+    background-color: rgba(103, 104, 100, 0.747);
+}
+
+/* **************** */
+
+.site_header {
+    position: relative;
+    height: 150px;
+    background-color: rgba(255, 16, 16, 0.801);
+}
+
+.site_main,
+.site_footer,
+.block_two,
+.block_three {
+    margin-top: 20px;
+}
+
+/* Inizio settaggio colori main */
+
+.block_one {
+    height: 500px;
+    background-color: rgba(51, 183, 80, 0.685);
+}
+
+.block_two {
+    height: 95px;
+    background-color: rgba(179, 51, 183, 0.753);
+}
+
+.bage_small {
+    width: 20%;
+    height: 541px;
+    float: left;
+    background-color: rgba(241, 123, 12, 0.842);
+}
+
+.bage_middle {
+    width: 58%;
+    height: 541px;
+    float: left;
+    background-color: rgba(241, 123, 12, 0.842);
+}
+
+/* Dimensionamento 3 blocco */
+
+.margin {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+/* ********Clearfix***********/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* FINE clearfix */
+
+/* Dichiarazione blocco colore footer */
+
+.site_footer {
+    height: 67px;
+    background-color: rgba(44, 40, 40, 0.801);
+}
