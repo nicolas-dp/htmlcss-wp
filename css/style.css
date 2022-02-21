@@ -21,7 +21,7 @@ nav, .block_four {
     margin-top: 20px;
 }
 
-.front{
+.front {
     width: 100%;
     border-radius: 1rem;
     z-index: 1;
@@ -55,6 +55,12 @@ footer {
 .logo_text a:hover {
     background-color: rgba(247, 243, 6, 0.808);
 }
+
+/* .site_header{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index: 4;
+} */
 
 /* ****************** */
 
@@ -132,7 +138,7 @@ footer {
 }
 
 
-.copy>span{
+.copy>span {
     color: red;
     font-size: 40px;
 }
