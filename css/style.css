@@ -84,30 +84,42 @@ footer {
     width: 50%;
     margin: 50px;
     color: rgb(255, 255, 255);
+    z-index: 3;
 }
 
 /* ********************* */
 
 .bage_small {
-    width: 20%;
-    float: left;
+    position: relative;
+    max-width: 100%;
 }
 
 .bage_middle {
-    width: 45%;
+    position: relative;
+    max-width: 100%;
+}
+
+.min_size,img{
+    height: 200px;
+    
+}
+
+.max_size,img{
+    height: 200px;
+    
+}
+
+.row_left {
+    width: 20%;
+    
     float: left;
+
 }
 
-.min_size > img{
-    max-width: 250px;
-    max-height: 200px;
+.row_center {
+    width: 58%;
     
-}
-
-.max_size > img{
-    max-width: 600px;
-    max-height: 200px;
-    
+    float: left;
 }
 
 /* Dimensionamento 3 blocco */
