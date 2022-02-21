@@ -14,6 +14,14 @@ body {
 
 }
 
+.site_main,
+.site_footer,
+.block_two,
+.block_three,
+nav {
+    margin-top: 20px;
+}
+
 /* Settaggio testa della pagina
 ************* */
 .logo {
@@ -22,18 +30,14 @@ body {
     margin-right: 20px;
 }
 
-.head{
+.head {
     position: relative;
 }
 
-.line{
-    border-right: 2px solid rgb(175, 175, 175); 
+.line {
+    border-right: 2px solid rgb(175, 175, 175);
     height: 85px;
     position: absolute;
-}
-
-nav {
-    margin-top: 20px;
 }
 
 .logo_text>a {
@@ -45,25 +49,16 @@ nav {
     background-color: rgba(247, 243, 6, 0.808);
 }
 
-
-.site_header {
-    position: relative;
-    padding: 1.5rem;
-
-}
-
-.site_main,
-.site_footer,
-.block_two,
-.block_three {
-    margin-top: 20px;
-}
+/* ****************** */
 
 /* Inizio settaggio colori main */
 
 .block_one {
-    height: 500px;
-    background-color: rgba(51, 183, 80, 0.685);
+    
+}
+
+img {
+    width: 100%;
 }
 
 .block_two {
