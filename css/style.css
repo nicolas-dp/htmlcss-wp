@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Verdana, sans-serif;
 }
 
 body {
@@ -13,28 +14,42 @@ body {
 
 }
 
-/* Settaggio colori header
+/* Settaggio testa della pagina
 ************* */
-
-/* BONUS SETTINGS 
-*********************/
 .logo {
-    height: 80px;
-    width: 300px;
-    background-color: rgb(214, 252, 0);
-}
-.logo_text {
-    position: relative;
-    height: 70px;
-    background-color: rgba(103, 104, 100, 0.747);
+    max-width: 200px;
+    max-height: 100px;
+    margin-right: 20px;
 }
 
-/* **************** */
+.head{
+    position: relative;
+}
+
+.line{
+    border-right: 2px solid rgb(175, 175, 175); 
+    height: 85px;
+    position: absolute;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+.logo_text>a {
+    text-decoration: none;
+    color: rgb(135, 135, 135);
+}
+
+.logo_text a:hover {
+    background-color: rgba(247, 243, 6, 0.808);
+}
+
 
 .site_header {
     position: relative;
-    height: 150px;
-    background-color: rgba(255, 16, 16, 0.801);
+    padding: 1.5rem;
+
 }
 
 .site_main,
