@@ -11,15 +11,22 @@
 body {
     width: 1200px;
     margin: auto;
-
 }
 
 .site_main,
 .site_footer,
 .block_two,
-.block_three,
+.container,
 nav {
     margin-top: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    z-index: 1;
+    
 }
 
 /* Settaggio testa della pagina
@@ -40,7 +47,9 @@ nav {
     position: absolute;
 }
 
-.logo_text>a {
+.logo_text>a,
+p,
+footer {
     text-decoration: none;
     color: rgb(135, 135, 135);
 }
@@ -52,6 +61,17 @@ nav {
 /* ****************** */
 
 /* Inizio settaggio colori main */
+
+.bg_color{
+    width: 100%;
+    height: 99.5%;
+    background-color: rgba(128, 128, 128, 0.267);
+    position: absolute;
+    z-index: 2;
+    border-radius: 1rem;
+    
+}
+
 
 .block_one {
     position: relative;
@@ -66,29 +86,28 @@ nav {
     color: rgb(255, 255, 255);
 }
 
-
-img {
-    width: 100%;
-    border-radius: 1rem;
-}
-
-.block_two {
-    height: 95px;
-    background-color: rgba(179, 51, 183, 0.753);
-}
+/* ********************* */
 
 .bage_small {
     width: 20%;
-    height: 541px;
     float: left;
-    background-color: rgba(241, 123, 12, 0.842);
 }
 
 .bage_middle {
-    width: 58%;
-    height: 541px;
+    width: 45%;
     float: left;
-    background-color: rgba(241, 123, 12, 0.842);
+}
+
+.min_size > img{
+    max-width: 250px;
+    max-height: 200px;
+    
+}
+
+.max_size > img{
+    max-width: 600px;
+    max-height: 200px;
+    
 }
 
 /* Dimensionamento 3 blocco */
@@ -98,9 +117,6 @@ img {
     margin-right: 12px;
 }
 
-.container {
-    max-width: 100%;
-}
 
 /* ********Clearfix***********/
 
@@ -116,5 +132,5 @@ img {
 
 .site_footer {
     height: 67px;
-    background-color: rgba(44, 40, 40, 0.801);
+    text-align: center;
 }
