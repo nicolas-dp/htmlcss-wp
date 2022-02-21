@@ -17,16 +17,14 @@ body {
 .site_footer,
 .block_two,
 .container,
-nav {
+nav, .block_four {
     margin-top: 20px;
 }
 
-img {
+.front{
     width: 100%;
-    height: 100%;
     border-radius: 1rem;
     z-index: 1;
-
 }
 
 /* Settaggio testa della pagina
@@ -37,7 +35,7 @@ img {
     margin-right: 20px;
 }
 
-.head, .block_one {
+.head, .block_one, .bage_middle, .bage_small {
     position: relative;
 }
 
@@ -73,7 +71,7 @@ footer {
 }
 
 
-
+/* Posizionamento testo nell'img principale */
 
 .bottom_left {
     position: absolute;
@@ -87,14 +85,9 @@ footer {
 
 /* ********************* */
 
-.bage_middle, .bage_small {
-    position: relative;
-    max-width: 100%;
-}
-
 .size {
+    width: 100%;
     height: 200px;
-
 }
 
 .row_left {
@@ -128,12 +121,18 @@ footer {
 
 /* Dichiarazione blocco colore footer */
 
-.site_footer {
-    height: 67px;
+.copy {
+    position: absolute;
+    bottom: -1500px;
+    left: 0;
+    width: 100%;
+    height: 100px;
     text-align: center;
+    font-size: 25px;
 }
 
-.site_footer>span {
+
+.copy>span{
     color: red;
-    font-size: 30px;
+    font-size: 40px;
 }
