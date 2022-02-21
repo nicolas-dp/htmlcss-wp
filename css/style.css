@@ -54,11 +54,22 @@ nav {
 /* Inizio settaggio colori main */
 
 .block_one {
-    
+    position: relative;
 }
+
+.bottom_left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    width: 50%;
+    margin: 50px;
+    color: rgb(255, 255, 255);
+}
+
 
 img {
     width: 100%;
+    border-radius: 1rem;
 }
 
 .block_two {
