@@ -1,11 +1,22 @@
 /* Utilities
 ****************** */
 
+:root{
+    --montseerat-font: 'Montserrat', sans-serif;
+    --arial-font: arial;
+    --linegray-color: rgb(175, 175, 175);
+    --paragraph-color: rgb(135, 135, 135);
+    --hoverlink-color: rgba(247, 243, 6, 0.808);
+    --textbottom-color: rgb(255,255,255);
+    --heart-color:rgb(255, 0, 0);
+
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif, arial;
 }
 
 body {
@@ -35,7 +46,7 @@ img {
     max-width: 100%;
 }
 
-.front {
+.hero_image {
     height: 600px;
     background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
@@ -58,7 +69,7 @@ img {
 }
 
 .line {
-    border-right: 2px solid rgb(175, 175, 175);
+    border-right: 2px solid var(--linegray-color);
     height: 85px;
     position: absolute;
 }
@@ -66,29 +77,37 @@ img {
 .logo_text>a,
 footer {
     text-decoration: none;
-    color: rgb(135, 135, 135);
+    color: var(--paragraph-color);
+    font-family: var(--montseerat-font);
 }
 
 .logo_text a:hover {
-    background-color: rgba(247, 243, 6, 0.808);
+    background-color: var(--hoverlink-color);
 }
 /* ****************** */
 
 
 /* Posizionamento testo nell'img principale */
 .bottom_left {
+    font-family: var(--montseerat-font);
     position: absolute;
     bottom: 8px;
     left: 16px;
     width: 50%;
     margin: 50px;
-    color: rgb(255, 255, 255);
+    color: var(--textbottom-color);
     z-index: 3;
 }
 
-.bottom_left>p{
-    color: white;
+.block_two{
+    font-family: var(--arial-font);
 }
+
+.block_three,
+.block_four{
+    font-family: var(--montseerat-font);
+}
+
 
 /* ********************* */
 
@@ -125,7 +144,7 @@ footer {
 
 .copy {
     position: absolute;
-    bottom: -1500px;
+    bottom: -1400px;
     left: 0;
     width: 100%;
     height: 100px;
@@ -135,6 +154,6 @@ footer {
 
 
 .copy>span {
-    color: red;
+    color: var(--heart-color);
     font-size: 40px;
 }
