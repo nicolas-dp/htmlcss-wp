@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif, arial;
 }
 
 body {
@@ -21,10 +21,28 @@ nav, .block_four {
     margin-top: 20px;
 }
 
-.front {
-    width: 100%;
+.bage_small > img,
+.bage_middle > img {
+    filter: brightness(0.8);
     border-radius: 1rem;
-    z-index: 1;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.front {
+    height: 600px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    filter: brightness(0.8);
 }
 
 /* Settaggio testa della pagina
@@ -46,7 +64,6 @@ nav, .block_four {
 }
 
 .logo_text>a,
-p,
 footer {
     text-decoration: none;
     color: rgb(135, 135, 135);
@@ -55,30 +72,10 @@ footer {
 .logo_text a:hover {
     background-color: rgba(247, 243, 6, 0.808);
 }
-
-/* .site_header{
-    position: fixed;
-    background-color: rgb(255, 255, 255);
-    z-index: 4;
-} */
-
 /* ****************** */
-
-/* Inizio settaggio colori main */
-
-.bg_color {
-    width: 100%;
-    height: 99.5%;
-    background-color: rgba(128, 128, 128, 0.267);
-    position: absolute;
-    z-index: 2;
-    border-radius: 1rem;
-
-}
 
 
 /* Posizionamento testo nell'img principale */
-
 .bottom_left {
     position: absolute;
     bottom: 8px;
@@ -89,15 +86,14 @@ footer {
     z-index: 3;
 }
 
-/* ********************* */
-
-.size {
-    width: 100%;
-    height: 200px;
+.bottom_left>p{
+    color: white;
 }
 
+/* ********************* */
+
 .row_left {
-    width: 18%;
+    width: 19%;
     float: left;
 
 }
@@ -110,8 +106,8 @@ footer {
 /* Dimensionamento 3 blocco */
 
 .margin {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 
